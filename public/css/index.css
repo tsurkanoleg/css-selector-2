@@ -1,1 +1,90 @@
-0
+/* //=========4.1======================= */
+.lesson-four-task-one>button.btn:hover{
+    color:red;
+    background:yellow;
+}
+/* //===========4.2====================== */
+
+.lesson-four-task-two> a.link:hover+h1 {
+    background: green;
+}
+/* //===========4.3====================== */
+.lesson-four-task-three>a.link:visited{
+    color: yellow;
+}
+/* //===========4.4====================== */
+ .lesson-four-task-four>#sidebar>a .link:link{
+    color: red;
+}
+/* //===========4.5====================== */
+.lesson-four-task-five>button.btn:active{
+    background: blue;
+}
+/* //===========4.6====================== */
+.lesson-four-task-six>button.btn:focus{
+    color:#fbfbfb;
+    background:#ff8a04;
+}
+/* //===========4.7====================== */
+.lesson-four-task-seven> #target:target{
+    color: rgb(12, 255, 12);
+    background-color: green;
+}
+/* //===========4.8====================== */
+.lesson-four-task-eight> input[type='checkbox']:checked~ div{
+    color:#ffffff;
+    background:blue;
+}
+/* //===========4.9====================== */
+.lesson-four-task-nine :lang(uk){
+    color:blue;
+}
+/* //===========4.10===================== */
+.lesson-four-task-ten input:enabled {
+    color:red;
+    background:yellow;
+}
+/* //===========4.11===================== */
+.lesson-four-task-eleven input:disabled{
+    background:yellow;
+}
+/* //===========4.12===================== */
+.lesson-four-task-twelve :read-write{
+   background:yellow;
+}
+/* //===========4.13===================== */
+.lesson-four-task-thirteen :read-only{
+    background:yellow;
+}
+/* //===========4.14===================== */
+.lesson-four-task-fourteen :valid{
+    background-color: green;
+}
+.lesson-four-task-fourteen :invalid{
+    background-color: red;
+}
+/* //===========4.15==============???????????????????======= */
+.lesson-four-task-fifteen :optional{
+    background: red;
+}
+/* //===========4.16===============???????????????====== */
+.lesson-four-task-sixteen :out-of-range{
+    background: red;
+}
+/* //===========4.17===================== */
+.lesson-four-task-seventeen :in-range{
+    color :red;
+}
+/* //===========4.18===================== */
+.lesson-four-task-eighteen :placeholder-shown {
+    background: red;
+}
+/* //===========4.19===================== */
+.lesson-four-task-nineteen :focus-within{
+    color:white;
+    background:yellow;
+}
+/* //===========4.20===================== */
+.lesson-four-task-twenty :invalid{
+    background: red;
+}
