@@ -64,13 +64,16 @@
     background-color: red;
 }
 /* //===========4.15==============???????????????????======= */
-.lesson-four-task-fifteen :optional{
-    background: red;
+.lesson-four-task-fifteen input:optional,
+textarea:optional {
+  background-color: red;
+  color: #4a4a4a;
 }
 /* //===========4.16===============???????????????====== */
-.lesson-four-task-sixteen :out-of-range{
-    background: red;
-}
+.lesson-four-task-sixteen input:out-of-range {
+    background-color: #fdd;
+    color: #f00;
+  }
 /* //===========4.17===================== */
 .lesson-four-task-seventeen :in-range{
     color :red;
